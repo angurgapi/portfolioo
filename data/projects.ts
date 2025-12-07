@@ -60,4 +60,13 @@ export const projects = [
         link: "https://smartass3.netlify.app",
         techs: ["JavaScript", "CSS", "Vue"],
     },
+    {
+        id: 6,
+        title: "Email unforward: remove quoted text from emails",
+        className: "md:col-span-2 md:row-span-1",
+        titleClassName: "justify-end",
+        link: "https://www.npmjs.com/package/email-unforward",
+        techs: ["JavaScript", "Node.js"],
+        github: "https://github.com/angurgapi/email-unforward"
+    }
 ];
