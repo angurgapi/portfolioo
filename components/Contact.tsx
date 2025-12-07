@@ -9,12 +9,12 @@ const Contact = () => {
     >
       <div className="flex flex-col items-center text-center">
         <Reveal>
-          <h2>
+          <h3>
             Contact{" "}
             <span className=" bg-gradient-to-r from-purple to-red-700 bg-clip-text text-transparent">
               me
             </span>
-          </h2>
+          </h3>
         </Reveal>
         <p className="max-w-[700px] mt-10">
           Let&apos;s work together on your next project!
