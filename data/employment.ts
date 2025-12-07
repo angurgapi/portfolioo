@@ -1,7 +1,10 @@
+import { url } from "inspector";
+
 export const workExperience = [
     {
         id: 1,
         company: "Enty",
+        url: "https://enty.io",
         title: "Full-Stack Developer",
         desc: "Shipped QR codes for payment links, automated invoice reminders, and integrated WhatsApp business messages. Secured micro frontends communication and improved bulk notifications with queues. Handled CRM synchronization and implemented CSV import/export for user data.",
         className: "md:col-span-2",
@@ -19,6 +22,7 @@ export const workExperience = [
     {
         id: 2,
         company: "Chazy AI",
+        url: "https://chazy.io",
         title: "Full-Stack Developer",
         desc: "Delivered user portal interface for document upload and transaction matching. Extended server processes for document chasing cycle with automated emails. Improved UI for accountant's portal and document validation system.",
         className: "md:col-span-2",
@@ -34,6 +38,7 @@ export const workExperience = [
     {
         id: 3,
         company: "M-flowers",
+        url: "https://m-flowers.com/en",
         title: "Frontend Developer",
         desc: "Improved marketplace catalogue UX and implemented interdependent filters to speed product discovery.",
         className: "md:col-span-2",
